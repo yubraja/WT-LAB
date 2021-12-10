@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab1.2 </title>
+    <style>
+        sup{
+            color:red;
+        }
+        .width{
+            width: 97%;
+        }
+        
+        
+
+        
+        caption{
+            caption-side: bottom;
+            text-align: center;
+        }
+        table{
+            margin:auto;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <form action="abc.php" method="get" >
+        <table border="1">
+            <caption><sup>*</sup>Marked are important</caption>
+            
+            
+            <tr>
+                <th colspan="4">Student Registration</th>
+
+
+            </tr>
+
+            <tr>
+                <th>
+                    <label for="uname" ><sup>*</sup>First Name</label>
+                </th>
+                <td> <input type="text" name="name" id="uname" class="width" required="required">    </td>
+                <th>
+                    <label for="lname">Last Name</label>
+
+                </th>
+                <td>
+                    <input type="text" name="last" id="lname" class="width">
+                </td>
+            </tr>
+            <tr>
+                <th>Semester</th>
+                <th colspan="3">
+                   <select name="sem" >
+                       <option>**select Semester**</option>
+                       <option>I</option>
+                       <option>II</option>
+                       <option>III</option>
+                       <option>IV</option>
+                       <option>V</option>
+                       <option>VI</option>
+
+
+                   </select>
+                </th>
+
+            </tr>
+            <tr>
+                
+                <th>Faculty</th>
+                <td colspan="3">
+                   <select name="sem">
+                       <option>**select faculty**</option>
+                       <option>IT</option>
+                       <option>Computer</option>
+                       <option>Civil</option>
+                       <option>Software</option>
+                       
+
+
+                   </select>
+                </td>
+            <tr>
+                <th>
+                    <label for="Gender"><sup>*</sup>Gender</label>
+                </th>
+                <td>
+                    Male<input type="radio" name="gender" value="M" required="required">
+                    Female<input type="radio" name="gender" value="f" required="required">
+
+                </td>
+            </tr>
+            <tr>
+                <label for="email">
+                <th><sup>*</sup>Email</th>
+                </label>
+                <td colspan="3">
+                    <input type="email" name="email" id="email" class="width" required="required">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="submit">
+                </td>
+                <td>
+                    <input type="reset" value="reset">
+                </td>
+            </tr>
+            
+
+        </table>
+        
+
+    </form>
+    </div>
+    
+</body>
+</html>
