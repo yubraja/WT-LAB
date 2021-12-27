@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab_4
+    </title>
+    <link href="lab.css" rel="stylesheet" type="text/css">
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        .nav-bar{
+            border: 2px solid red;
+            height:40px;
+            background-color: aquamarine;
+            
+            
+        }
+        .title{
+            float:left;
+            width:35%;
+            
+        }
+        .forms{
+            float:right;
+            width:25%
+            
+        }
+        .content{
+            clear:both;
+        }
+        
+        .content{
+            float:right;
+
+
+        }
+        .buttons{
+            width:200px;
+            margin: 0px auto;
+        }
+        body{
+            background-color: rgb(207, 235, 179);
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="full">
+        <div class="nav-bar">
+        <div class="title">
+            <h2>My Page</h2>
+        </div>
+        <form>
+        <div class="forms">
+           
+                
+                <input type="text" name="uname" placeholder="name"  >
+                <input type="email" name="email" placeholder="email">
+                <input type="submit" value="login"  >
+        </div>
+        </form>
+        
+        </div>
+        <br>
+        <br>
+        <form>
+        <div class="content">
+            <h3>New user </h3>
+            <h3>register here</h3>
+            
+            
+            <div><label>Name<sup>*</sup>:   <input type="text" name="name" required="required" ></label></div>
+            <div><label>Email<sup>*</sup>:  <input type="email" name="email" required="required" ></label></div>
+            <div><label>Password<sup>*</sup>:<input type="password" name="password" required="required"  size="17px"></label></div>
+            
+                <div class="buttons">
+                <input type="submit" value="Sign up" class="increase">
+            
+            
+                
+                <input type="reset" value="reset"  class="increase" >
+                </div>
+                <p>Textboxes with <span class="red">*</span> sign are mandatory</p>
+        </div>
+
+        </form>
+            
+            
+            
+        
+        
+
+    </div>
+    
+</body>
+</html>
